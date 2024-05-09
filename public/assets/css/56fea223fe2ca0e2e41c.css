@@ -7272,14 +7272,18 @@ ul li {
   }
 }
 .header_01 {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   z-index: 5;
-  background: transparent;
   padding: 39px 40px 0 45px;
   border-bottom: 2px solid hsla(0, 0%, 100%, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.header_01.scrolled {
+  background-color: black;
 }
 .logo {
   text-align: left;
@@ -11408,10 +11412,7 @@ textarea.input-form:focus {
     right: -95px !important;
     left: auto !important;
   }
-  .header_01 {
-    padding-left: 0;
-    padding-right: 0;
-  }
+
   .mainmenu ul li {
     padding: 0 12px 53px;
   }
@@ -11665,10 +11666,7 @@ textarea.input-form:focus {
     right: -100px !important;
     left: auto !important;
   }
-  .header_01 {
-    padding-left: 0;
-    padding-right: 0;
-  }
+
   .mainmenu ul li:first-of-type {
     padding-left: 0;
   }
