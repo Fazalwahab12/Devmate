@@ -7,7 +7,7 @@ const Contect = () => {
         <div className="row">
           <div className="col-lg-9 col-sm-8 col-md-9">
             <h2 className="sec_title white">
-              Let&#x27;s Get Your Project Started!
+              Let’s Check Mate Your Tech Challenges Now!
             </h2>
           </div>
           <div className="col-lg-3 col-sm-4 col-md-3 text-right">

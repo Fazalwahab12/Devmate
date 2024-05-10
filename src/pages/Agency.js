@@ -6,16 +6,14 @@ function Agency() {
       <div className="container">
         <div className="row">
           <div className="PR_79 col-lg-6 col-md-6 col-sm-12">
-            <h4 className="sub_title">welcom to smart meipaly web agency</h4>
+            <h4 className="sub_title">Our Story</h4>
             <h2 className="sec_title MB_45">
-              We are the Best Website agency in The World
+              We are a Global digital marketing and software solutions agency
             </h2>
             <p className="sec_desc">
-              We are committed to providing our customers with exceptional
-              service while offering our employees the best training. Lorem
-              Ipsum is simply dummy text of the printing and typesetting
-              industry has been the industry&#x27;s standard dummy text ever
-              since the 1500s.
+              With a widespread presence spanning Asia, Europe, and the USA. In
+              a legacy of 6+ years we've achieved remarkable success, partnering
+              with 150+ businesses worldwide to foster their digital growth.
             </p>
             <a className="common_btn red_bg" href="#">
               <span>Learn More</span>

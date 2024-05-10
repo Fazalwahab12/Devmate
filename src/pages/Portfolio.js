@@ -6,11 +6,11 @@ function Portfolio() {
       <div className="container">
         <div className="row">
           <div className="text-center col-lg-12">
-            <h4 className="sub_title">our portfolio</h4>
-            <h2 className="sec_title">work showcase</h2>
+            <h4 className="sub_title">Work Gallery</h4>
+            <h2 className="sec_title">View Our Portfolio</h2>
             <p className="sec_desc">
-              We are committed to providing our customers with exceptional
-              service while offering our employees the best training.
+              Explore a selection of our successful projects delivered to
+              satisfied clients
             </p>
           </div>
         </div>

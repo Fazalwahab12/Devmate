@@ -11,12 +11,14 @@ const CommonSection = () => {
                 <i className="mei-team"></i>
               </div>
               <h2>
-                Great things in business are never done by one person.
-                <span>They’re done by a team of people.</span>
+                In the digital age, if your business is not online, it's as if
+                it doesn't exist
+                <span> Bill Gates</span>
               </h2>
               <p>
-                We are committed to providing our customers with exceptional
-                service while offering our employees the best training.
+                Our goal is to facilitate digital business growth by offering
+                comprehensive 360-degree digital marketing solutions, all under
+                one roof, while ensuring an exceptional client experience
               </p>
             </div>
           </div>

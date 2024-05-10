@@ -29,7 +29,7 @@ function App() {
       <Team />
       <Our_clients />
       <CommonSection />
-      <Blogs />
+
       <Contect />
       <Footer />
     </div>

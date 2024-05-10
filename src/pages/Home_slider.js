@@ -9,9 +9,15 @@ const Home_slider = () => {
   const slides = [
     {
       backgroundImage: `url('assets/images/1_1-f90490d4ecf54e452f86f13824144d67.jpg')`,
+      heading: "360 Digital Marketing Solutions",
     },
     {
       backgroundImage: `url('assets/images/1_2-7b9ab5a9968e0485e27e51341ab20669.jpg')`,
+      heading: "Checkmate your Digital Marketing & Software goals",
+    },
+    {
+      backgroundImage: `url('assets/images/1_1-f90490d4ecf54e452f86f13824144d67.jpg')`,
+      heading: "DEVMATE is Your new Mate in Tech",
     },
   ];
 
@@ -33,10 +39,7 @@ const Home_slider = () => {
             <section className="main-slider main-slider__two">
               <div className="swiper-container">
                 <div className="swiper-wrapper">
-                  <div
-                    className="swiper-slide swiper-slide-duplicate"
-                    data-swiper-slide-index="2"
-                  >
+                  <div className="swiper-slide swiper-slide-duplicate">
                     <div
                       className="image-layer"
                       style={{
@@ -44,20 +47,16 @@ const Home_slider = () => {
                       }}
                     ></div>
 
-                    <div className="container">
-                      <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
-                        <div className="text-center">
-                          <p className="text-white text-lg">
-                            WELCOME TO MEIPALY AGENCY
+                    <div class="container">
+                      <div class="row">
+                        <div class="text-center col-lg-12">
+                          <p class="main-slider__subtext">
+                            Welcome to DEVMATE Solutions
                           </p>
-                          <h3 className="text-white text-2xl font-bold mb-4">
-                            DIGITAL MARKETING AGENCY.
-                          </h3>
-                          <div className="  ">
-                            <a className=" text-white" href="about">
-                              <span>DISCOVER MORE</span>
-                            </a>
-                          </div>
+                          <h3 class="main-slider__title">{slide.heading}</h3>
+                          <a class="common_btn" href="about">
+                            <span>DISCOVER MORE</span>
+                          </a>
                         </div>
                       </div>
                     </div>

@@ -9,8 +9,8 @@ function We_works() {
             <h4 className="sub_title">how do we works</h4>
             <h2 className="sec_title">Digital Experience</h2>
             <p className="sec_desc">
-              We are committed to providing our customers with exceptional
-              service while offering our employees the best training.
+              From requirement gathering to execution and delivery, we make sure
+              client satisfaction at every stage.
             </p>
           </div>
         </div>

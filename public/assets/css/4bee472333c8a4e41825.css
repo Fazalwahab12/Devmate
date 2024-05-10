@@ -46,6 +46,7 @@
 }
 .swiper-container-multirow > .swiper-wrapper {
   -webkit-flex-wrap: wrap;
+
   flex-wrap: wrap;
 }
 .swiper-container-multirow-column > .swiper-wrapper {

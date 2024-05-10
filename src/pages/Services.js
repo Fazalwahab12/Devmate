@@ -6,17 +6,15 @@ function Services() {
       <div className="container">
         <div className="row">
           <div className="text-center col-lg-12">
-            <h4 className="sub_title red_color">Services we are offering</h4>
+            <h4 className="sub_title red_color">What We Offer</h4>
             <h2 className="sec_title white">
-              We design digital products that help grow businesses.
+              From digital marketing to intricate software solutions, our agency
+              offers comprehensive services under one roof.
             </h2>
-            <p className="sec_desc color_aaa">
-              We are committed to providing our customers with exceptional
-              service while offering our employees the best training.
-            </p>
           </div>
         </div>
-        <div className="custom_column row">
+
+        <div className="  row">
           <div className="col-lg-3 col-md-6 col-sm-12">
             <a className="icon_box_1 text-center" href="service-details">
               <div className="flipper">
@@ -36,11 +34,11 @@ function Services() {
               <div className="flipper">
                 <div className="front">
                   <i className="mei-computer-graphic"></i>
-                  <h3>Graphic Designing</h3>
+                  <h3>Branding</h3>
                 </div>
                 <div className="back">
                   <i className="mei-computer-graphic"></i>
-                  <h3>Graphic Designing</h3>
+                  <h3>Branding</h3>
                 </div>
               </div>
             </a>
@@ -73,6 +71,7 @@ function Services() {
               </div>
             </a>
           </div>
+
           <div className="col-lg-3 col-md-6 col-sm-12">
             <a className="icon_box_1 text-center" href="service-details">
               <div className="flipper">
@@ -83,6 +82,51 @@ function Services() {
                 <div className="back">
                   <i className="mei-app-development"></i>
                   <h3>App Development</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className="col-lg-3 col-md-6 col-sm-12">
+            <a className="icon_box_1 text-center" href="service-details">
+              <div className="flipper">
+                <div className="front">
+                  <i className="mei-app-development"></i>
+                  <h3>Generative Ai</h3>
+                </div>
+                <div className="back">
+                  <i className="mei-app-development"></i>
+                  <h3>Generative Ai</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className="col-lg-3 col-md-6 col-sm-12">
+            <a className="icon_box_1 text-center" href="service-details">
+              <div className="flipper">
+                <div className="front">
+                  <i className="mei-app-development"></i>
+                  <h3>Videography</h3>
+                </div>
+                <div className="back">
+                  <i className="mei-app-development"></i>
+                  <h3>Videography</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className="col-lg-3 col-md-6 col-sm-12">
+            <a className="icon_box_1 text-center" href="service-details">
+              <div className="flipper">
+                <div className="front">
+                  <i className="mei-app-development"></i>
+                  <h3>Photography</h3>
+                </div>
+                <div className="back">
+                  <i className="mei-app-development"></i>
+                  <h3>Photography</h3>
                 </div>
               </div>
             </a>

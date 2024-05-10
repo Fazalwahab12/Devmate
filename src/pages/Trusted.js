@@ -59,13 +59,19 @@ function Trusted() {
                     <div className="col-lg-5 col-sm-12 col-md-5"></div>
                     <div className="col-lg-7 col-sm-12 col-md-7">
                       <div className="abci_content">
-                        <h2>We are trusted by more than 8900 clients</h2>
+                        <h2>
+                          With a global presence across 10+ countries, we've
+                          served over 5000 satisfied clients
+                        </h2>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit, sed do eiusmod tempor incidi-dunt ut labore et
-                          dolore magna aliqua. Ut enim ad minim veniam, quis
-                          nostrud exercita-tion ullamco laboris nisi ut aliquip
-                          ex ea commodo.
+                          With over 6 years of experience, we've built a diverse
+                          client base across the UK, Netherlands, Germany,
+                          Italy, USA, Pakistan, India, Canada, France, and
+                          Dubai. Having served more than 5000 clients, we've
+                          facilitated digital growth for over 2000 businesses.
+                          Evolving from a service-based company, we're now
+                          focused on developing our own startups and SaaS
+                          products.
                         </p>
                         <a className="common_btn red_bg" href="about">
                           <span>Learn More</span>

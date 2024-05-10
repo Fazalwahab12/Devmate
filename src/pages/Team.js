@@ -53,11 +53,11 @@ const Team = () => {
       <div className="container">
         <div className="row">
           <div className="text-center col-lg-12">
-            <h4 className="sub_title">meet the team</h4>
-            <h2 className="sec_title">expert people</h2>
+            <h4 className="sub_title">Team DEVMATE</h4>
+            <h2 className="sec_title">Meet Our Dynamic Crew</h2>
             <p className="sec_desc">
-              We are committed to providing our customers with exceptional
-              service while offering our employees the best training.
+              Get acquainted with the team driving innovation and delivering
+              exceptional results.
             </p>
           </div>
         </div>
