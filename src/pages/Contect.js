@@ -2,7 +2,7 @@ import React from "react";
 
 const Contect = () => {
   return (
-    <section className="commonSection ready">
+    <section id="Contect" className="commonSection ready">
       <div className="container">
         <div className="row">
           <div className="col-lg-9 col-sm-8 col-md-9">

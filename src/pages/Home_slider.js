@@ -15,10 +15,6 @@ const Home_slider = () => {
       backgroundImage: `url('assets/images/1_2-7b9ab5a9968e0485e27e51341ab20669.jpg')`,
       heading: "Checkmate your Digital Marketing & Software goals",
     },
-    {
-      backgroundImage: `url('assets/images/1_1-f90490d4ecf54e452f86f13824144d67.jpg')`,
-      heading: "DEVMATE is Your new Mate in Tech",
-    },
   ];
 
   return (
@@ -27,7 +23,7 @@ const Home_slider = () => {
         modules={[Pagination, Autoplay, A11y]}
         slidesPerView={1}
         autoplay={{
-          delay: 3000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         pagination={{

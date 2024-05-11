@@ -11,7 +11,7 @@ import Services from "./pages/Services";
 import Team from "./pages/Team";
 import Trusted from "./pages/Trusted";
 import We_works from "./pages/We_works";
-import Reviews from "./pages/Reviews";
+import Testimonial1 from "./pages/Testimonial1";
 function App() {
   return (
     <div>
@@ -25,7 +25,7 @@ function App() {
       <Portfolio />
       <Trusted />
       <Team />
-      <Reviews />
+      {/* <Testimonial1 /> */}
       <CommonSection />
 
       <Contect />
