@@ -64,8 +64,17 @@ const Team = () => {
       </div>
       <Swiper
         modules={[Pagination, Autoplay, A11y]}
-        slidesPerView={1} // Display only 1 slide on small screens
-        spaceBetween={10} // Add space between slides
+        spaceBetween={10}
+        breakpoints={{
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+          },
+        }}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
