@@ -8,37 +8,25 @@ function Trusted() {
           <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="singlefunfact text-center">
-                <h1 className="timer">
-                  <span className="countSpan"></span>
-                  <span></span>
-                </h1>
+                <h1 className="timer">200</h1>
                 <h3>Projects Completed</h3>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="singlefunfact text-center">
-                <h1 className="timer">
-                  <span className="countSpan"></span>
-                  <span></span>
-                </h1>
+                <h1 className="timer">140</h1>
                 <h3>Active Clients</h3>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="singlefunfact text-center">
-                <h1 className="timer">
-                  <span className="countSpan"></span>
-                  <span></span>
-                </h1>
+                <h1 className="timer">100</h1>
                 <h3>Cups of Coffee</h3>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="singlefunfact text-center">
-                <h1 className="timer">
-                  <span className="countSpan"></span>
-                  <span></span>
-                </h1>
+                <h1 className="timer">140</h1>
                 <h3>Happy Clients</h3>
               </div>
             </div>

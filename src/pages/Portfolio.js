@@ -22,11 +22,8 @@ function Portfolio() {
                   <img src="assets/images/p4.jpeg" alt="Design Styles" />
                   <div className="folioHover">
                     <a className="cate" href="#">
-                      all, graphic,
+                      Ecommerce
                     </a>
-                    <h4>
-                      <a href="portfolio-details">Design Styles</a>
-                    </h4>
                   </div>
                 </div>
               </div>
@@ -35,11 +32,8 @@ function Portfolio() {
                   <img src="assets/images/p2.jpg" alt="Design Styles" />
                   <div className="folioHover">
                     <a className="cate" href="#">
-                      all, graphic,
+                      Ecommerce
                     </a>
-                    <h4>
-                      <a href="portfolio-details">Design Styles</a>
-                    </h4>
                   </div>
                 </div>
               </div>
@@ -48,50 +42,19 @@ function Portfolio() {
                   <img src="assets/images/p3.jpg" alt="Design Styles" />
                   <div className="folioHover">
                     <a className="cate" href="#">
-                      all, graphic,
+                      web Design
                     </a>
-                    <h4>
-                      <a href="portfolio-details">Design Styles</a>
-                    </h4>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="singlefolio">
-                  <img src="assets/images/p10.jpg" alt="Design Styles" />
-                  <div className="folioHover">
-                    <a className="cate" href="#">
-                      all, graphic,
-                    </a>
-                    <h4>
-                      <a href="portfolio-details">Design Styles</a>
-                    </h4>
-                  </div>
-                </div>
-              </div>
+
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="singlefolio">
                   <img src="assets/images/p8.jpeg" alt="Design Styles" />
                   <div className="folioHover">
                     <a className="cate" href="#">
-                      all, graphic,
+                      Mobile applaction
                     </a>
-                    <h4>
-                      <a href="portfolio-details">Design Styles</a>
-                    </h4>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="singlefolio">
-                  <img src="assets/images/p6.png" alt="Design Styles" />
-                  <div className="folioHover">
-                    <a className="cate" href="#">
-                      all, graphic,
-                    </a>
-                    <h4>
-                      <a href="portfolio-details">Design Styles</a>
-                    </h4>
                   </div>
                 </div>
               </div>

@@ -11,8 +11,8 @@ const CommonSection = () => {
                 <i className="mei-team"></i>
               </div>
               <h2>
-                In the digital age, if your business is not online, it's as if
-                it doesn't exist
+                "In the digital age, if your business is not online, it's as if
+                it doesn't exist."
                 <span> Bill Gates</span>
               </h2>
               <p>

@@ -1,0 +1,188 @@
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+}
+.scrolled {
+  background-color: black;
+}
+@keyframes swiper-preloader-spin {
+  to {
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+
+@-webkit-keyframes modal-video {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes modal-video {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes modal-video {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes modal-video-inner {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  to {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+@-moz-keyframes modal-video-inner {
+  0% {
+    -moz-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  to {
+    -moz-transform: translate(0);
+    transform: translate(0);
+  }
+}
+@keyframes modal-video-inner {
+  0% {
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  to {
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+.testimonials {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+
+.testimonials .testi .item {
+  background: #fff;
+  padding: 50px 30px;
+  border-radius: 15px; /* Rounded corners */
+  flex: 1 30%;
+  margin: 10px;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.testimonials .title {
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+  padding: 20px 0;
+  max-width: 600px;
+  margin: 0 auto;
+  flex: 1 100%; /* Added */
+}
+
+.testimonials .title h5 {
+  color: #eb6d2f;
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: -3px;
+}
+
+.testimonials .title h2 {
+  color: #5a3733;
+  line-height: 1.2em;
+  font-weight: 900;
+  font-size: 41px;
+  letter-spacing: -1px;
+  margin: 0;
+}
+
+.testimonials .title img {
+  margin-top: -10px;
+}
+
+.testimonials .title p {
+  margin: 0 0 10px;
+  margin-bottom: 0;
+  color: #5a3733;
+}
+
+.testimonials .testi .item .profile {
+  display: flex;
+  padding-left: 15px;
+}
+
+.testimonials .testi .item .profile img {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.testimonials .testi .item .profile .information {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.testimonials .testi .item .profile .information .stars i {
+  color: #ffd832;
+}
+
+.testimonials .testi .item .profile .information p {
+  font-size: 24px;
+  margin: 0px auto 0px;
+  color: #5a3733;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.testimonials .testi .item .profile .information span {
+  color: #eb6d2f;
+  font-weight: bold;
+  margin-top: -4px;
+  line-height: 1.6em;
+  font-size: 14px;
+}
+
+.testimonials .testi .item > p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.6em;
+  display: block;
+  z-index: 2;
+  font-style: italic;
+  color: #5a3733;
+  text-align: center;
+}
+
+.testimonials .testi .item .icon {
+  text-align: center;
+}
+
+.testimonials .testi .item .icon i {
+  font-size: 32px;
+  color: #ffd832;
+}
