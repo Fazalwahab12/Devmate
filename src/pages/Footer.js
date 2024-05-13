@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="col-lg-5 col-sm-6 col-md-5">
             <aside className=" aboutwidget">
               <a href="">
-                <img src="assets/images/logo-whitef.png" alt="" />
+                <img src="assets/images/logo-white.png" alt="" />
               </a>
               <p>
                 Welcome to our web design agency. Lorem ipsum is simply free
