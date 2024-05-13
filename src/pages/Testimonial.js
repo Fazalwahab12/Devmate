@@ -5,8 +5,8 @@ export default function Testimonial() {
     <section className="testimonials ">
       <div className="container ">
         <div className="owl-carousel owl-theme testi row">
-          <div className="item row">
-            <div className="profile">
+          <div className="item ">
+            <div className="profile row">
               <img
                 src="https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80"
                 alt=""
