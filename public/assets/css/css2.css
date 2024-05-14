@@ -5324,6 +5324,10 @@ textarea.input-form:focus {
 .close-popup:hover:before {
   background: #e62b4a;
 }
+.logo {
+  text-align: left;
+  padding: 0 0 39px;
+}
 .logo2 {
   z-index: 99;
   position: absolute;
@@ -6259,9 +6263,13 @@ img {
   .container.mobileContainer {
     width: 100%;
   }
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
   .logo2 {
     left: 15px;
-    top: 0%;
+    top: 20px;
   }
   .dl-menu__wrap ul li {
     margin: 5px 0;
@@ -7036,5 +7044,16 @@ img {
   }
   .videoWrap_2 .play_video h2 {
     font-size: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hiden {
+    display: none;
+  }
+}
+@media (min-width: 600px) {
+  .hiden {
+    display: none;
   }
 }
