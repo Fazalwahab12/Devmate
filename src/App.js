@@ -24,7 +24,7 @@ function App() {
       <News />
       <Portfolio />
       <Trusted />
-      <Team />
+      {/* <Team /> */}
       <Testimonial />
       <CommonSection />
 

@@ -59,27 +59,6 @@ null "
                 </ul>
               </nav>
             </div>
-            <div className="col-6 col-lg-2  col-md-2 col-sm-4">
-              <div className="navigator text-right">
-                <a className="search searchToggler" href="#">
-                  <i className="mei-magnifying-glass"></i>
-                </a>
-                <a
-                  href="#"
-                  className="menu mobilemenu d-none d-md-none d-lg-none"
-                >
-                  <i className="mei-menu"></i>
-                </a>
-                <a id="open-overlay-nav" className="menu hamburger" href="#">
-                  <span
-                    onClick={toggleMenu}
-                    className="text-xl  text-white inline-flex items-center justify-center rounded-full cursor-pointer px-3"
-                  >
-                    <i className="mei-menu"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </header>

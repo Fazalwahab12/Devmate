@@ -11,27 +11,26 @@ const Footer = () => {
                 <img src="assets/images/logo-white.png" alt="" />
               </a>
               <p>
-                Welcome to our web design agency. Lorem ipsum is simply free
-                text dolor sit amet consectetur adipisicing elit. Tempore
-                corrupti temporibus fuga earum asperiores, alias excepturi sit
-                mpedit fugit laudantium.
+                we are a digital marketing and software solutions company here
+                to help you checkmate your related challenges.
               </p>
             </aside>
           </div>
           <div className="col-lg-4 col-sm-4 col-md-4">
             <aside className="widget contact_widgets">
               <h3 className="widget_title">contact</h3>
+              <p>Oval Tower, Business bay, Dubai, UAE</p>
               <p>
-                66 Broklyn Street, New York
-                <br />
-                United States of America
+                <a href="mailto:devmatesolutions@proton.com">
+                  devmatesolutions@proton.com
+                </a>
               </p>
-              <p>P: 666 888 000</p>
               <p>
-                E: <a href="#">needhelp@meipaly.com</a>
+                <a href="tel:+971521769601">+971 52 176 9601</a>
               </p>
             </aside>
           </div>
+
           <div className="col-lg-3 col-sm-2 col-md-3">
             <aside className="widget social_widget">
               <h3 className="widget_title">social</h3>

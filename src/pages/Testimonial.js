@@ -37,46 +37,61 @@ export default function Testimonial() {
   ];
 
   return (
-    <section className="testimonials">
-      <div className="container">
-        <Swiper
-          className="testi owl-carousel owl-theme row"
-          slidesPerView={1}
-          spaceBetween={10}
-          breakpoints={{
-            768: {
-              slidesPerView: 2,
-              spaceBetween: 10,
-            },
-            1024: {
-              slidesPerView: 4,
-              spaceBetween: 10,
-            },
-          }}
-        >
-          {testimonials.map((testimonial, index) => (
-            <SwiperSlide key={index}>
-              <div className="item">
-                <div className="profile">
-                  <img src={testimonial.image} alt={testimonial.name} />
-                  <div className="information">
-                    <div className="stars">
-                      {testimonial.stars.map((star, i) => (
-                        <i key={i} className="fa fa-star"></i>
-                      ))}
+    <>
+      <div className="container commonSection ">
+        <div className="row">
+          <div className="text-center col-lg-12">
+            <h4 className="sub_title">Testimonial</h4>
+            <h2 className="sec_title">Our Valued Customers</h2>
+            <p className="sec_desc">
+              We are dedicated to delivering top-notch services, and here's what
+              our satisfied customers have to say about their experiences
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <section className="testimonials">
+        <div className="container">
+          <Swiper
+            className="testi owl-carousel owl-theme row"
+            slidesPerView={1}
+            spaceBetween={10}
+            breakpoints={{
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+              },
+              1024: {
+                slidesPerView: 4,
+                spaceBetween: 10,
+              },
+            }}
+          >
+            {testimonials.map((testimonial, index) => (
+              <SwiperSlide key={index}>
+                <div className="item">
+                  <div className="profile">
+                    <img src={testimonial.image} alt={testimonial.name} />
+                    <div className="information">
+                      <div className="stars">
+                        {testimonial.stars.map((_star, i) => (
+                          <i key={i} className="fa fa-star"></i>
+                        ))}
+                      </div>
+                      <p>{testimonial.name}</p>
                     </div>
-                    <p>{testimonial.name}</p>
+                  </div>
+                  <p>{testimonial.text}</p>
+                  <div className="icon">
+                    <i className="fa fa-quote-right" aria-hidden="true"></i>
                   </div>
                 </div>
-                <p>{testimonial.text}</p>
-                <div className="icon">
-                  <i className="fa fa-quote-right" aria-hidden="true"></i>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
-    </section>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      </section>
+    </>
   );
 }
